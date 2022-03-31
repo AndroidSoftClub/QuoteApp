@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#252736</color>
+    <color name="purple_500">#F9FBFD</color>
+    <color name="purple_700">#F9FBFD</color>
+    <color name="teal_200">#F9FBFD</color>
+    <color name="teal_700">#F9FBFD</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="category_item_txt">#fff</color>
+    <color name="round_btn_bg">#80000000</color>
+
+    <color name="grid_color">#FEC5BB</color>
+    <color name="grid_color1">#A8DADC</color>
+    <color name="grid_color2">#CCD5AE</color>
+    <color name="grid_color3">#FEC89A</color>
+    <color name="grid_color4">#ADD6F9</color>
+    <color name="grid_color5">#96E2CB</color>
+    <color name="grid_color6">#EABAC1</color>
+    <color name="grid_color7">#DFC0F8</color>
+    <color name="tq_item_color">#A1A1A2</color>
+
+    <!--UI Colors-->
+    <color name="splash_text_color">#252736</color>
+    <color name="header_text_color">#252736</color>
+    <color name="main_bg_color">#F9FBFD</color>
+    <color name="thumb_color">#A1A1A2</color>
+    <color name="track_color">#DADCDD</color>
+    <color name="transparent">#00000000</color>
+    <color name="exit_alert_bg">#F9FBFD</color>
+    <color name="exit_btn_color">#252736</color>
+    <color name="exit_txt_color">#fff</color>
+    <color name="text_cat_item_color">#000</color>
+
+</resources>

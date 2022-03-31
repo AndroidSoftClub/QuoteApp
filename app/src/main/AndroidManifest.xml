@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kessi.quotey">
+
+    <application
+        android:name="com.kessi.quotey.MyApp"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme.QuotyApp"
+        tools:replace="android:supportsRtl">
+
+        <activity
+            android:name="com.kessi.quotey.CropImgActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.MyQuotesActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.textquotes.TextQuotesMakerActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.textquotes.TCatListActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.ICatListActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.textquotes.TextQuotesActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.SplashActivity"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.kessi.quotey.MainActivity"
+            android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.PagerPreviewActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.kessi.quotey.PrivacyActivity"
+            android:screenOrientation="nosensor" />
+
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:hardwareAccelerated="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/admob_app_id" />
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

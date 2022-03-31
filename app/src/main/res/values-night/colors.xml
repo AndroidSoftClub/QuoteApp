@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#fff</color>
+    <color name="purple_500">#252736</color>
+    <color name="purple_700">#252736</color>
+    <color name="teal_200">#252736</color>
+    <color name="teal_700">#252736</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="category_item_txt">#fff</color>
+    <color name="round_btn_bg">#80000000</color>
+
+    <!--UI Colors-->
+    <color name="splash_text_color">#fff</color>
+    <color name="header_text_color">#fff</color>
+    <color name="main_bg_color">#252736</color>
+    <color name="thumb_color">#F13120</color>
+    <color name="track_color">#50525C</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

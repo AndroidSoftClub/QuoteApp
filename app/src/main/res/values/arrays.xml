@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="grid_colors">
+        <item>@color/grid_color</item>
+        <item>@color/grid_color1</item>
+        <item>@color/grid_color2</item>
+        <item>@color/grid_color3</item>
+        <item>@color/grid_color4</item>
+        <item>@color/grid_color5</item>
+        <item>@color/grid_color6</item>
+        <item>@color/grid_color7</item>
+    </array>
+
+    <string-array name="color_array">
+        <item>#fec5bb</item>
+        <item>#ccd5ae</item>
+        <item>#add6f9</item>
+        <item>#eabac1</item>
+        <item>#a8dadc</item>
+        <item>#f4a261</item>
+        <item>#2a9d8f</item>
+        <item>#dfc0f8</item>
+        <item>#264653</item>
+        <item>#e9c46a</item>
+        <item>#e76f51</item>
+        <item>#9d0208</item>
+        <item>#57a773</item>
+        <item>#03045e</item>
+        <item>#023e8a</item>
+        <item>#6b705c</item>
+        <item>#ff477e</item>
+    </string-array>
+
+    <string-array name="text_color_array">
+        <item>#fee440</item>
+        <item>#f15bb5</item>
+        <item>#00f5d4</item>
+        <item>#9b5de5</item>
+        <item>#fbaa27</item>
+        <item>#e3a07e</item>
+        <item>#a2d376</item>
+        <item>#e37e7e</item>
+        <item>#76d399</item>
+        <item>#768cd3</item>
+        <item>#ffadad</item>
+        <item>#ffd6a5</item>
+        <item>#ffffff</item>
+        <item>#000000</item>
+        <item>#fdffb6</item>
+        <item>#caffbf</item>
+        <item>#9bf6ff</item>
+        <item>#a0c4ff</item>
+        <item>#bdb2ff</item>
+        <item>#ffc6ff</item>
+        <item>#003049</item>
+        <item>#343a40</item>
+        <item>#f9dcc4</item>
+        <item>#ee5b61</item>
+    </string-array>
+</resources>

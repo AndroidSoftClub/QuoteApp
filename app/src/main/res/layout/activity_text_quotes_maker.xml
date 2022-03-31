@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".textquotes.TextQuotesMakerActivity">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#57000000"
+        android:padding="@dimen/_6sdp"
+        android:weightSum="8">
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/q_cancel" />
+
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/bgColor"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_weight="1"
+            app:riv_border_color="#fff"
+            app:riv_border_width="2dp"
+            android:padding="@dimen/_5sdp"
+            android:src="@color/main_bg_color"
+            app:riv_corner_radius="@dimen/_50sdp" />
+
+        <ImageView
+            android:id="@+id/pickImage"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/q_image" />
+
+        <TextView
+            android:id="@+id/fontStyle"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_30sdp"
+            android:text="Aa"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="@dimen/_16sdp"
+            android:padding="@dimen/_3sdp"
+            />
+
+        <ImageView
+            android:id="@+id/fontsize"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/q_size"/>
+
+        <ImageView
+            android:id="@+id/fontGravity"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/q_align"/>
+
+        <ImageView
+            android:id="@+id/fontColor"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/q_text_color" />
+
+        <ImageView
+            android:id="@+id/save"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/_30sdp"
+            android:src="@drawable/q_save" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/savedLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <ImageView
+            android:id="@+id/bgIV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"/>
+        <com.txusballesteros.AutoscaleEditText
+            android:id="@+id/quoteTV"
+            android:padding="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:hint="Enter your quote"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:background="@color/transparent"
+            android:textSize="@dimen/_35sdp" />
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bgColorRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:background="#57000000"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/textColorRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:background="#57000000"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/seekLay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#57000000"
+        android:visibility="gone"
+        android:layout_below="@id/toolbar"
+        android:padding="@dimen/_10sdp"
+        android:gravity="center">
+        <SeekBar
+            android:id="@+id/fSizeSeek"
+            android:layout_width="match_parent"
+            android:max="220"
+            android:layout_height="wrap_content"
+            android:progressBackgroundTint="#fff"
+            android:progressTint="#fff"
+            android:thumbTint="#fff"/>
+    </LinearLayout>
+</RelativeLayout>

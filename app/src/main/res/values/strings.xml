@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quotey</string>
+
+    <!--sliding navigation-->
+    <string name="srn_drawer_open">Open</string>
+    <string name="srn_drawer_close">Close</string>
+
+    <string name="srn_ex_no_menu_view">No view for menu provided. You must either call .withMenuView(View) or pass a valid resource id to .withMenuLayout(int)</string>
+    <string name="srn_ex_bad_content_view">Your content view must contain exactly one child. Make sure you call inject() after setContentView().</string>
+
+    <string name="ad_attribution">Ad</string>
+    <string name="all_quotes">All Quotes</string>
+    <string name="favourite">Favourite</string>
+    <string name="share">Share</string>
+    <string name="copy">Copy</string>
+    <string name="whatsapp">WhatsApp</string>
+
+    <!--admob ids-->
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--fb ad ids-->
+    <string name="fbad_banner_id">437817384219102_437817764219064</string><!--IMG_16_9_APP_INSTALL#YOUR_PLACEMENT_ID-->
+    <string name="fbad_interstitial_id">437817384219102_437819270885580</string><!--VID_HD_9_16_39S_APP_INSTALL#YOUR_PLACEMENT_ID-->
+
+</resources>

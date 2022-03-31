@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/activity_pager_preview.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/activity_t_cat_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/activity_text_quotes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/activity_text_quotes_maker.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/ad_banner_lay.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/color_row_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/custom_tab.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/dialog_loading.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/dialog_options_wall.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/dialog_set_wallpaper.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/exit_popup_lay.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/frag_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/frag_favourite.xml" value="0.17314814814814813" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/frag_iquotes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/frag_tcategory.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/frag_tfavourite.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/frag_tquotes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/item_cat_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/item_category.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/item_ifavourite.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/item_iquote.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/item_tcategory.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/item_tquote.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/loader_lay.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/menu_left_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/Android Project/Precties Project/Quotey/app/src/main/res/layout/preview_list_item.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
